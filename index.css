@@ -13,8 +13,12 @@ body{ font-family: Helveti;
                 
                 }
             p2{
+              background-color: rgb(176, 209, 196);
+              border: 3px solid rgb(176, 209, 196);
+              border-radius: 20px; 
               font-family: 'Courier New', Courier, monospace;
               font-size:40px;
+              text-align: center;
               
             }
                 
