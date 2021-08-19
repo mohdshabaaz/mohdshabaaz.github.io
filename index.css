@@ -20,6 +20,7 @@ body{ font-family: Helveti;
                 
             img{
               border:20px solid rgb(20, 53, 70);
+              align-self: center
            }
            h1{
              
