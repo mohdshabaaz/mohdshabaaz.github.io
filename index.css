@@ -18,6 +18,10 @@ body{ font-family: Helveti;
                
               font-family: serif;
               font-size:40px;
+              overflow: visible;
+              border: 3px solid rgb(176, 209, 196);
+              border-radius: 20px;
+              
               
               
               
