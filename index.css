@@ -1,10 +1,10 @@
 body{ font-family: Helveti;
                  font-size: 50px;
-	     background-color: rgb(44, 44, 44);
-	     color: rgb(44, 44, 44);
+	     background-color: rgb(243, 247, 238);
+	     color: rgb(20, 53, 70);
 	      padding: 0;
 	      margin: 0;
-	      color: rgb(68, 204, 211);
+	      
 	    }
                 
 	   	
@@ -19,7 +19,7 @@ body{ font-family: Helveti;
             }
                 
             img{
-              border:20px solid rgb(68, 204, 211);
+              border:20px solid rgb(20, 53, 70);
            }
            h1{
              
@@ -41,7 +41,7 @@ body{ font-family: Helveti;
             position: fixed;
             top: 0;
             width: 100%;
-           background-color: rgb(68, 204, 211);
+           background-color: rgb(176, 209, 196);
            
           font-size: 60px;
           
@@ -56,8 +56,7 @@ body{ font-family: Helveti;
             text-decoration: none;
             padding: 5px;
             padding-left: 10px;
-            text-shadow:2px 2px 5px rgb(44, 44, 44);
-            color: rgb(44, 44, 44);
+            color: rgb(20, 53, 70);
             display: inline;
 
           }
@@ -67,17 +66,17 @@ body{ font-family: Helveti;
            }
           footer{
              text-align: center;
-            background-color: rgb(68, 204, 211);
+            background-color: rgb(176, 209, 196);
    
         padding-bottom: 1px;
       
       }
       p{
-        color: rgb(44, 44, 44);
+        color: rgb(20, 53, 70);
         text-shadow: 2px 2px 5px black;
         font-size: 17px;
         
-        border-bottom: 3px solid rgb(44, 44, 44);
+        border-bottom: 3px solid rgb(243, 247, 238);
        
         
       }
@@ -88,19 +87,20 @@ body{ font-family: Helveti;
          
       }
       .p a{
-        color: rgb(44, 44, 44);
+        
         text-decoration: none;
         text-shadow:2px 2px 5px black;
         display: inline-block;
         font-size: 50px;
         padding: 5px;
+        color: rgb(20, 53, 70)
         
         
       }
       p5{
        text-shadow: 2px 2px 5px black;
       font-size: 15px;
-      color: rgb(44, 44, 44);
+      
       }
   
   
