@@ -13,20 +13,24 @@ body{ font-family: Helveti;
                 
                 }
             p2{
+              text-align: justify;
               background-color: rgb(176, 209, 196);
                
-              font-family: 'Courier New', Courier, monospace;
+              font-family: serif;
               font-size:40px;
-              text-align: justify;
-              border: 3px solid rgb(176, 209, 196);
-              border-radius: 20px;
+              
+              
               
             }
                 
+            div{
+              text-align: center;
+            }   
             img{
-              border:20px solid rgb(20, 53, 70);
-              align-content: center;
-           }
+              border:20px solid rgb(20, 53, 70)
+              
+              
+        }
            h1{
              
              
