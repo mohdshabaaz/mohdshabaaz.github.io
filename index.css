@@ -30,8 +30,8 @@ body{ font-family: Helveti;
               text-align: center;
             }   
             img{
-              border:20px solid rgb(20, 53, 70)
-              
+              border:20px solid rgb(20, 53, 70);
+              border-radius: 45px;
               
         }
            h1{
