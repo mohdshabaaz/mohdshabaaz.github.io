@@ -1,6 +1,6 @@
 body{ font-family: Helveti;
                  font-size: 50px;
-	     background-color: rgb(243, 247, 238);
+	     background-color: navajowhite;
 	     color: rgb(20, 53, 70);
 	      padding: 0;
 	      margin: 0;
@@ -10,18 +10,15 @@ body{ font-family: Helveti;
 	   	
             p1{ font-family: serif;
                 font-size: 50px;
-                
+       
                 }
             p2{
              display: block;
-              background-color: rgb(176, 209, 196);
+              
                
               font-family: serif;
               font-size:40px;
-              
-              border: 5px solid rgb(176, 209, 196);
-              border-radius: 30px;
-              
+              color: rgb(20, 53, 70);
            
               
         }
@@ -30,7 +27,7 @@ body{ font-family: Helveti;
               text-align: center;
             }   
             img{
-              border:20px solid rgb(20, 53, 70);
+              border:20px solid rgb(24, 24, 24);
               border-radius: 45px;
               
         }
@@ -54,7 +51,7 @@ body{ font-family: Helveti;
             position: fixed;
             top: 0;
             width: 100%;
-           background-color: rgb(176, 209, 196);
+           background-color: rgb(20, 53, 70);
            
           font-size: 60px;
           
@@ -69,25 +66,25 @@ body{ font-family: Helveti;
             text-decoration: none;
            padding: 20px;
             padding-left: 15px;
-            color: rgb(20, 53, 70);
+            color: navajowhite;
             display: inline;
             
 
           }
           .n a:hover{
-            background-color: white;
-            color: black;
+            background-color: navajowhite;
+            color: rgb(20, 53, 70);
            }
           footer{
              text-align: center;
-            background-color: rgb(176, 209, 196);
+            background-color: rgb(20, 53, 70);
    
         padding-bottom: 1px;
       
       }
       p{
-        color: rgb(20, 53, 70);
-        text-shadow: 2px 2px 5px black;
+        color: navajowhite;
+        text-shadow: 2px 2px 5px navajowhite;
         font-size: 17px;
         
         border-bottom: 3px solid rgb(243, 247, 238);
@@ -103,17 +100,18 @@ body{ font-family: Helveti;
       .p a{
         
         text-decoration: none;
-        text-shadow:2px 2px 5px black;
+        text-shadow:2px 2px 5px navajowhite;
         display: inline-block;
         font-size: 50px;
         padding: 8px;
-        color: rgb(20, 53, 70)
+        color: navajowhite;
         
         
       }
       p5{
-       text-shadow: 2px 2px 5px black;
+       text-shadow: 2px 2px 5px navajowhite;
       font-size: 15px;
+      color: navajowhite;
       
       }
   
