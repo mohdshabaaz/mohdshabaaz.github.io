@@ -1,47 +1,42 @@
 body{ font-family: Helveti;
-                 font-size: 50px;
+                 
 	     background-image: url("/mn.png");
-	     color: rgb(20, 53, 70);
+	     background-size: cover;
+	     color: white;
 	      padding: 0;
 	      margin: 0;
 	      
 	    }
                 
-	   
+	   div{
+	     text-align: center;
+	     
+	   }
   
-         
 
-           .n ul{
-            list-style: none;
-             
-             align-items: center;
-             display: block;
-             padding-left: 5px;
-           }
-  
                       
           .n{
             position: fixed;
+            float: center;
             top: 0;
            
-          font-size: 60px;
+          font-size: 30px;
           
           
    }
    .n ul{
      margin:0;
-     padding:0;
+     text-align: center;
+     padding: 0;
+     display: inline;
+     
    }
           .n a{
             
             text-decoration: none;
            padding: 20px;
-            padding-left: 15px;
             color: white;
-            display: inline;
-            
-
-          }
+         }
           .n a:hover{
             background-color: white;
             color: black;
