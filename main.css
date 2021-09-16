@@ -1,0 +1,50 @@
+body{ font-family: Helveti;
+                 font-size: 50px;
+	     background-image: url("/mn.png");
+	     color: rgb(20, 53, 70);
+	      padding: 0;
+	      margin: 0;
+	      
+	    }
+                
+	   
+  
+         
+
+           .n ul{
+            list-style: none;
+             
+             align-items: center;
+             display: block;
+             padding-left: 5px;
+           }
+  
+                      
+          .n{
+            position: fixed;
+            top: 0;
+           
+          font-size: 60px;
+          
+          
+   }
+   .n ul{
+     margin:0;
+     padding:0;
+   }
+          .n a{
+            
+            text-decoration: none;
+           padding: 20px;
+            padding-left: 15px;
+            color: white;
+            display: inline;
+            
+
+          }
+          .n a:hover{
+            background-color: white;
+            color: black;
+          }
+  
+      
