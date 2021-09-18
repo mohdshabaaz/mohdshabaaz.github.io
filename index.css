@@ -9,7 +9,7 @@ body{ font-family: Helveti;
                 
 	   	
             p1{ font-family: serif;
-                font-size: 50px;
+                font-size: 40px;
        
                 }
             p2{
@@ -17,7 +17,7 @@ body{ font-family: Helveti;
               
               
               font-family: serif;
-              font-size:50px;
+              font-size:40px;
               color: rgb(20, 53, 70);
            
               
@@ -34,7 +34,7 @@ body{ font-family: Helveti;
            h1{
              
              
-             font-size: 90px;
+             font-size: 80px;
            }
          
 
@@ -53,7 +53,7 @@ body{ font-family: Helveti;
             width: 100%;
            background-color: rgb(20, 53, 70);
            
-          font-size: 40px;
+          font-size: 45px;
           
           
    }
