@@ -11,12 +11,11 @@ body{ font-family: Helveti;
 	   p{
 	     text-align: center;
 	     font-size: 30px;
+           color: white;
 	   }
   
 
     .n{
-     text-align: center;
- background-color: black;
 justify-content: left;
 width: 40%;
  flex-direction: column;
@@ -51,7 +50,7 @@ color: white;
     width: 20px;
    margin: 3px 0px;
    border-radius: 2px;
-    background-color: black;
+    background-color: white;
  
     
    }
