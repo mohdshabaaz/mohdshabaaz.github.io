@@ -2,7 +2,83 @@
   <head> 
 	 <title>Home</title>
 	 <link rel="stylesheet" href="main.css">
-
+<style>
+nav{
+     text-align: center;
+ background-color: white;
+justify-content: left;
+width: 40%;
+ flex-direction: column;
+ display: flex;
+ 
+ 
+    }
+    a{
+      color: black;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+  nav:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  #togg{
+   display: none;
+  }
+  .togg{
+    background-color: white;
+    display: flex;
+    flex-direction: right;
+    top: 1px;
+    padding: 3px;
+  }
+  span{
+    display: flex;
+    height: 3px;
+    width: 20px;
+   margin: 3px 0px;
+   border-radius: 2px;
+    background-color: white;
+ 
+    
+   }
+   label{
+     background-color: none;
+     
+   }
+   
+   
+  @media screen and (max-width: 1000px)
+  {
+    
+    
+    
+    
+    nav{
+      display: none;
+      
+    }
+   
+    #togg:checked + nav{
+      display: flex;
+    }
+      
+    }
+  }
+  </style>
+  <body>
+  <div>
+    <label for="togg" >
+    <span></span>
+    <span>
+    </span>
+    <span></span>
+    </label>
+  </div>
+    <input type="checkbox" id="togg">
+  
+ 
       <nav>
         <ul>
       <a href="main.css">Home</a>
@@ -11,16 +87,6 @@
      <a href="more.html">More webpages</a>
     
      </ul><br></nav>
-</head>
- <body>
-    <label for="togg">
-    <span></span>
-    <span>
-    </span>
-    <span></span>
-    </label>
-  
-    <input type="checkbox" id="togg">
 <div>
      <br><br><br><br><br><br><br>
       <p><i>"A dream does not become reality through magic, it takes sweat, determination, and hard work."</i></p>
