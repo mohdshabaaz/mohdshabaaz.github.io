@@ -8,9 +8,9 @@ body{ font-family: Helveti;
 	      
 	    }
                 
-	   div{
+	   p{
 	     text-align: center;
-	     
+	     font-size: 30px;
 	   }
   
 
@@ -21,7 +21,7 @@ justify-content: left;
 width: 40%;
  flex-direction: column;
  display: flex;
-
+color: white;
  
  
     }
@@ -30,7 +30,7 @@ width: 40%;
       text-decoration: none;
       padding: 5px 10px;
     }
-  .n a:hover{
+  .n:hover{
     background-color: white;
     color: black;
     
