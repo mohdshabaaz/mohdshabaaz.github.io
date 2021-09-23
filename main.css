@@ -14,21 +14,76 @@ body{ font-family: Helveti;
 	   }
   
 
-                      
-          .n{
-            position: fixed;
-            float: center;
-            top: 0;
-           
-          font-size: 30px;
-          
-          
+    .n{
+     text-align: center;
+ background-color: black;
+justify-content: left;
+width: 40%;
+ flex-direction: column;
+ display: flex;
+
+ 
+ 
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+  .n a:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  #togg{
+   display: none;
+  }
+  .togg{
+    background-color: white;
+    display: flex;
+    flex-direction: right;
+    top: 1px;
+    padding: 3px;
+  }
+  span{
+    display: flex;
+    height: 3px;
+    width: 20px;
+   margin: 3px 0px;
+   border-radius: 2px;
+    background-color: black;
+ 
+    
    }
+   label{
+     background-color: none;
+     
+   }
+   
+   
+  @media screen and (max-width: 1000px)
+  {
+    
+    
+    
+    
+    .n{
+      display: none;
+      
+    }
+   
+    #togg:checked + .n{
+      display: flex;
+    }
+      
+    }
+  }
+
+                      
    .n ul{
      margin:0;
-     text-align: center;
      padding: 0;
-     display: inline;
+     
      
    }
           .n a{
@@ -37,9 +92,5 @@ body{ font-family: Helveti;
            padding: 20px;
             color: white;
          }
-          .n a:hover{
-            background-color: white;
-            color: black;
-          }
   
       
