@@ -46,10 +46,10 @@ color: white;
   }
   span{
     display: flex;
-    height: 10px;
-    width: 40px;
+    height: 6px;
+    width: 30px;
    margin: 3px 0px;
-   border-radius: 2px;
+   border-radius: 3px;
     background-color: white;
  
     
