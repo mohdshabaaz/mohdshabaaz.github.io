@@ -60,14 +60,14 @@ color: white;
    }
    
    
-  @media screen and (max-width: 1000px)
+  @media screen and (max-width: 999px)
   { 
     nav{
       display: none;
       
     }
    
-     #togg:checked + nav{
+     .togg:checked + nav{
       display: flex;
     }
       
