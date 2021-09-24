@@ -20,12 +20,11 @@ justify-content: left;
 width: 40%;
  flex-direction: column;
  display: flex;
-color: white;
  
  
     }
     a{
-      color: white;
+      color: black;
       text-decoration: none;
       padding: 5px 10px;
     }
