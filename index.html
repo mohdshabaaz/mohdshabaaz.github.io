@@ -17,7 +17,7 @@ body{ font-family: Helveti;
 	     text-align: center;
 	     font-size: 35px;
            color: white;
-           position: fixed;
+           
 	  }
        
     nav{
@@ -30,8 +30,7 @@ height: 50%;
  flex-direction: column;
  display: block;
  overflow: visible;
- z-index: 4;
-position: relative;
+
     }
     a{
       color: black;
@@ -71,6 +70,9 @@ color: white;
      background-color: none;
      
    }
+  div{
+ position: fixed;
+}
    
    
   @media screen and (max-width: 1000px)
@@ -81,26 +83,29 @@ color: white;
     
     nav{
       display: none;
+
       
     }
    
     #togg:checked + nav{
       display: block;
-    z-index: 2;
+    position: relative;
+    z-index: 3;
+  
     }
       
     }
   }
   </style>
   <body>
-  <div>
+  
     <label for="togg" >
     <span></span>
     <span>
     </span>
     <span></span>
     </label>
-  </div>
+  
     <input type="checkbox" id="togg">
   
  
