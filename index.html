@@ -25,8 +25,8 @@ body{ font-family: Helveti;
      font-size: 30px;
  background-color: white;
 justify-content: left;
-width: 0px;
-height: 50%;
+width: 40%;
+height: 70%;
  flex-direction: column;
  display: block;
  overflow: visible;
@@ -94,8 +94,7 @@ color: white;
     top: 25px;
     left: 0px;
     z-index: 3;
-    transition: margin-left 0.5s;
-    width: 40%;
+    
     }
       
     }
@@ -103,7 +102,7 @@ color: white;
   </style>
   <body>
   
-    <label for="togg" >
+    <label for="togg" onclick="my()">
     <span></span>
     <span>
     </span>
@@ -128,6 +127,10 @@ color: white;
       <p><i>"A dream does not become reality through magic, it takes sweat, determination, and hard work."</i></p>
      </div>
  	 
-  
+  <script>
+ function my(){
+document.getElementByTagName("nav").style.width="40%";
+}
+</script>
  </body>
  </html>
