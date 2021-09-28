@@ -70,7 +70,7 @@
      
   </nav>
 <br><br>
-<form action="/thnk.html" onsubmit="return validateForm()">
+<form action="/thnk.html" name="myForm" onsubmit="return validateForm()">
  <label>Mobile number:</label><br>
 <input type="number" placeholder="Number" name="num" required><br>
 <label>User name:</label><br>
@@ -91,7 +91,7 @@ Age:
 </form>
 <script>
 function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
+  let x = document.forms["myForm"]["num"]["my"]["fname"].value;
   if (x == "") {
     document.getElementById("bb").innerHTML = "Name must be filled out";
     return false;
