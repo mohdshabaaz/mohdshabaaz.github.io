@@ -47,8 +47,13 @@
            }
     form{
       font-size: 40px;
-      align-self: center;
+      
      }
+   div{
+  align-content: center;
+ top: 40px;
+box-shadow: 5px 5px 5px white;
+}
      input{
        font-size: 40px;
    background-color: white;
@@ -72,6 +77,7 @@ background-color: white;
      
   </nav>
 <br><br>
+<div>
 <form action="/thnk.html" name="myForm" onsubmit="return validateForm()">
  <label>Mobile number:</label><br>
 <input type="number" placeholder="Number" name="num" required><br>
@@ -91,6 +97,7 @@ Age:
 </select><br><br>
 <button type="submit" >sign up</button>
 </form>
+</div>
 <script>
 function validateForm() {
   let x = document.forms["myForm"]["num"]["my"]["fname"].value;
