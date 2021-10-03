@@ -101,7 +101,7 @@ color: white;
     }
   }
  #load{
-  background: white url("/load2.gif" no-repeat center center;
+  background: white url("load2.gif");
   background-size: cover;
   position: fixed;
   z-index: 100;
@@ -146,6 +146,9 @@ color: white;
  function my(){
 document.getElementByTagName("nav").style.width="40%";
 }
+var l = document.getElementById("load");
+window.addEventListener("load", function(){
+l.style.display ="none"})
 
 </script>
 
