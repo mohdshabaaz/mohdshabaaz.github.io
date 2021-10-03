@@ -27,10 +27,14 @@
         font-size: 35px;
         text-shadow: 0px 0px 6px #FFDF4C;
       }
+      #load{
+ 
+}
     </style>
 </head>
 
 <body>
+ <div id="load"></div>
  <p><strong>World of music</strong></p><br><br>
  <p0>Famous english songs</p0><br>
  <p1>Memories</p1><br>
@@ -58,6 +62,11 @@
 <audio controls autoplay style="padding-left: 20px">
   <source src="k93.mp3" type="audio/ogg">
 </audio><br><br>
+<script>
+var l = document.getElementById("load");
+window.addEventListener("load", function(){
+l.style.display ="none"})
+</script>
 </body>
 
 </html>
