@@ -90,7 +90,7 @@ color: white;
            
     form{
 font-size: 60px;
-border: 1px solid white;
+border: 1px solid transparent;
 border-radius: 30px;
 padding: 30px;
 color: ;
@@ -121,7 +121,7 @@ text-align: center;
      }
      button{
        font-size: 50px;
-       border: 2px solid #256070;
+       border: 2px solid transparent;
        border-radius: 37px;
        background: white;
        color: rgb(0, 75, 100);
@@ -132,11 +132,11 @@ text-align: center;
    select{
      font-size: 50px;
 color: black;
-border: 3px solid black;
+border: 3px solid transparent;
 border-radius: 37px;
 padding: 6px;
 background-color: white;
-
+position: relative;
      }
 
 p{
@@ -186,8 +186,8 @@ document.getElementByTagName("nav").style.width="40%";
 <input type="email" placeholder="Email id"  minlength="8" required><br>
 
 <input type="password" placeholder="Password"  minlength="10" required><br><br>
-<p Id="bb"></p>
-Age:
+<p style="font-size: 50px">Age:</p>
+
 <select>
  
   <option>under 20</option>
