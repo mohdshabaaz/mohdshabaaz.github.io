@@ -98,6 +98,10 @@ padding-left: 23px;
     z-index: 3;
     
     }
+   #cls:checked + nav{
+margin-left: -88%;
+}
+   
       
     }
   }
@@ -106,15 +110,12 @@ padding-left: 23px;
   background-size: cover;
   position: fixed;
   z-index: 100;
-  
-}
+ }
 #cls{
 border-color: transparent;
 font-size: 38px;
 float: right;
-justify-self: right;
-padding-top: 1px;
-padding-right: 1px;
+padding: 4px;
 position: relative;
 }
   
@@ -138,7 +139,7 @@ position: relative;
  
       <nav>
         <ol>
-     <button id="cls" type="submit" onsubmit="document.getElementByTagName("nav").style.margin-left ="-88%";">×</button>
+     <button id="cls" type="checkbox" >×</button>
       <br><a href="index.html">Home</a><br>
     
      <a href="signup.html">Sign up  </a><br>
