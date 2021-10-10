@@ -98,12 +98,8 @@ padding-left: 23px;
     z-index: 3;
     
     }
-   #h:checked + nav{
-  margin-left: -88%;
-}
-   
-      
-    }
+ 
+  }
   }
  #load{
   background: white url("load2.gif");
@@ -111,16 +107,14 @@ padding-left: 23px;
   position: fixed;
   z-index: 100;
  }
-#n{
+#cls{
 border-color: transparent;
 font-size: 38px;
 float: right;
 padding: 4px;
 position: relative;
 }
-#h{
-dislay: none;
-}
+
   
 
  
@@ -130,7 +124,7 @@ dislay: none;
 </head>
   <body>
   <div id="load"></div>
-    <label for="togg" onclick="my()">
+    <label for="togg" >
     <span></span>
     <span>
     </span>
@@ -142,8 +136,7 @@ dislay: none;
  
       <nav>
         <ol>
-     <label for="h" ><span id="n">×</span></label>
-     <input id="h" type="checkbox" >
+     <button type="button" id="cls" onclick="return my()">×</button>
       <br><a href="index.html">Home</a><br>
     
      <a href="signup.html">Sign up  </a><br>
@@ -160,6 +153,10 @@ dislay: none;
 $(window).on("load", function(){
  $("#load").fadeout("slow");
 });
+
+function my(){
+document.getElementById("cls").style.margin-left = "-88%";
+}
 </script>
   
 
