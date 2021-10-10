@@ -33,7 +33,7 @@ height: 70%;
  overflow: visible;
 margin-left: -88%;
 transition: .4s;
-top: 20px;
+top: 0px;
     }
     a{
       color: black;
@@ -93,7 +93,7 @@ padding-left: 23px;
     #togg:checked + nav{
       display: flex;
     position: relative;
-    top: 30px;
+    top: 0px;
     margin-left: 0%;
     z-index: 3;
     
@@ -108,7 +108,10 @@ padding-left: 23px;
   z-index: 100;
   
 }
-
+#cls{
+border-color: transparent;
+font-size: 32px;
+}
   
 
  
@@ -130,6 +133,7 @@ padding-left: 23px;
  
       <nav>
         <ol>
+     <button id="cls" type="button" onclick="document.getElementByTagName("nav").style.margin-left ="-88%";">close</button>
       <a href="index.html">Home</a><br>
     
      <a href="signup.html">Sign up  </a><br>
